@@ -1,0 +1,257 @@
+/*//////////////////Header-start/////////////////*/
+header{
+    color: #ffffff;
+}
+#main-logo {
+    background-image: url(images/logo.png);
+    height: 300px;
+    width: 300px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    justify-items: center;
+}
+.contact-header {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.contact-header a {
+    color: #424242;
+    height: 10px;
+    justify-content: center;
+    justify-items: right;
+    padding: none;
+}
+.social-media {
+    display:flex;
+    justify-content:center;
+    justify-self:center;
+    align-items: center;
+    margin: 10px;
+}
+.social-media a {
+    padding: none;
+    margin: none;
+    padding: 20px;
+    padding-top: 10px;
+    height: 100px;
+    justify-content: center;
+}
+
+.social-media ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height:fit-content;
+    padding: 10px;
+
+}
+.social-media li{
+    height: 100px;
+    height: auto;
+
+}
+
+nav {
+    display: flex;
+    background-color: #424242;
+    justify-content:space-around;
+    height: 50px;
+    display: sticky;
+    top:0;
+    width: auto;
+}
+a {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    align-content: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left:10px ;
+}
+nav a:hover{
+    background-color: #ffffff;
+    color: #424242;
+}
+
+
+/*/////////////////////Main-Body///////////////////*/
+.project-wrapper {
+    display: grid;
+}
+h1 {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+h2 {
+    height: 15px;
+    margin: none;
+    justify-items: center;
+    display: grid;
+}
+h3 {
+    height: 15px;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 2px;
+    margin: 1px;
+    display: grid;
+}
+/*//////////////grid-wrapper////////*/
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(4,2fr);
+    justify-items: center;
+    justify-content: center;
+    height: 500px;
+    padding-bottom: 10px;
+    border: solid #424242;
+    height: 1000px;
+    background-color: lightgrey;
+}
+.websites{
+    display: grid;
+    grid-template-columns: repeat(1,270px);
+    margin: 1px;
+    grid-gap:10px;
+}
+.website1{
+    display: grid;
+    border:solid #424242;
+    width: auto;
+    height: 250px;
+
+}
+.website2{
+    display: grid;
+    border:solid #424242;
+    width: auto;
+    height: 250px;
+}
+.website3{
+    display: grid;
+    border:solid #424242;
+    width: auto;
+    height: 250px;
+}
+
+
+.Apps{
+    display: grid;
+    grid-template-columns: repeat(1,270px);
+    grid-gap:10px;
+}
+.app1{
+    display: grid;
+    border: solid #424242;
+    width: auto;
+    height: 250px;
+}
+.app2{
+    display: grid;
+    border: solid #424242;
+    width: auto;
+    height: 250px;
+}
+.app3{
+    display: grid;
+    border: solid #424242;
+    width: auto;
+    height: 250px;
+}
+
+
+.applications{
+    display: grid;
+    grid-template-columns: repeat(1,270px);
+    grid-gap:10px;
+}
+.project1{
+    display: grid;
+    border:solid #424242;
+    height: 250px;
+}
+.project2{
+    display: grid;
+    border:solid #424242;
+    height: 250px;
+}
+.project3{
+    display: grid;
+    border:solid #424242;
+    height: 250px;
+}
+
+.blockchain{
+    display: grid;
+    grid-template-columns: repeat(1,270px);
+    grid-gap:10px;
+    margin-top: none;
+}
+.block1{
+    display: grid;
+    border:solid #424242;
+    height: 250px;
+}
+.block2{
+    display: grid;
+    border:solid #424242;
+    height: 250px;
+}
+.block3{
+    display: grid;
+    border:solid #424242;
+    height: 250px;
+}
+
+
+/*/////////////////////// Footer//////////////////////*/
+.social-media-footer {
+    height: 200px;
+    background-color: #424242;
+    color:  #ffffff;
+    display: flex;
+    width:auto;
+}
+footer {
+    position: relative;
+}
+.social-media-container{
+    display: flex;
+    height: 100px;
+}
+.icon-links{
+    display: flex;
+    }
+#copyright {
+    padding-left: 75px;
+    align-self: flex-end;
+}
+.social-media-footer{
+    display: flex;
+    justify-content: right;
+    height: auto;
+
+}
+.social-media-footer ul a{
+    padding: 20px;
+    text-decoration: none;
+    margin: 5px;
+    justify-content: space-between;
+    height: 20px;
+}
+.social-media a :hover{
+    color: blue;
+}
+.social-media-footer a:hover {
+    color:cyan;
+}
+.fab {
+    font-size: 40px;
+}
+.fas {
+    font-size:40px;
+}
